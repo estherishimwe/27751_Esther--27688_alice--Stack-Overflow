@@ -1,4 +1,4 @@
-Group Name:Stack-Overflow
+### Group Name:Stack-Overflow
 names:Ishimwe Esther 27751
       Mutamba Alice  27688
 
@@ -124,3 +124,4 @@ SELECT
     LAG(total_spent) OVER (PARTITION BY city ORDER BY total_spent) AS prev_spent,
     LEAD(total_spent) OVER (PARTITION BY city ORDER BY total_spent) AS next_spent
 FROM customers;
+###
